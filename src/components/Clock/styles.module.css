@@ -1,0 +1,20 @@
+.clock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.time {
+  position: absolute;
+}
+
+.tooltip {
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
